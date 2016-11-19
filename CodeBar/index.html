@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<html lang="en">
+	<head>
+		<title>JOB</title>
+	</head>
+	<body>
+
+		<a href="StreamDemo.html" style="position:absolute;left:350px;">GetUserMedia Demo</a>
+
+		<!-- Start Scaner region -->
+		<div id="container">
+
+			<!-- show a preview to the img -->
+			<canvas width="320" height="240" id="picture"></canvas>
+
+			<!-- File source btn -->
+			<input id="Take-Picture" type="file" accept="image/*;capture=camera" />
+
+			<!-- Show the img content -->
+			<p id="textbit"></p>
+
+			<button id="js_AddCode" type="button" name="button">Add</button>
+
+		</div> <br><br><br>
+		<!-- End Scaner region -->
+
+
+		<!-- Start Report Region -->
+		<div class="">
+
+			<table>
+
+				<thead>
+					<tr>
+						<th>Code</th>
+					</tr>
+				</thead>
+
+				<tbody class="js_BarCodeList">
+
+				</tbody>
+
+			</table>
+
+		</div>
+		<!-- End Report region -->
+
+
+
+		<!-- Include jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- CodeBar Files -->
+		<script type="text/javascript" src="JOB.js"></script>
+		<script type="text/javascript" src="CodeBarScaner.js" ></script>
+
+		<!-- Aditional js files -->
+		<script type="text/javascript" src="js\functions.js" ></script>
+
+
+	</body>
+</html>
